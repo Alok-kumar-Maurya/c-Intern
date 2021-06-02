@@ -104,13 +104,13 @@ int32_t main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output3.txt", "w", stdout);
-#endif
-    //question1();
-    //question2();
-    //question3();
+// #ifndef ONLINE_JUDGE
+//     freopen("input.txt", "r", stdin);
+//     freopen("output3.txt", "w", stdout);
+// #endif
+    question1();
+    question2();
+    question3();
     return 0;
     // THINGS TO KEEP IN MIND
     //   * int overflow, time and memory limits
